@@ -283,7 +283,8 @@ export default function BlogClientPage() {
                         </span>
                       </div>
                     </div>
-                  </Link>
+                  </div>
+                </Link>
               </motion.article>
             ))}
           </div>
@@ -291,4 +292,4 @@ export default function BlogClientPage() {
       </section>
     </div>
   )
-}\
+}
