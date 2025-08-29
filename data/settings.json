@@ -1,0 +1,29 @@
+{
+  "businessInfo": {
+    "name": "LUXE Salon & Spa",
+    "tagline": "Where craft meets care",
+    "phone": "+94 11 234 5678",
+    "whatsapp": "+94 77 123 4567",
+    "email": "hello@luxesalon.lk",
+    "address": "123 Galle Road, Colombo 03, Sri Lanka",
+    "hours": {
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "9:00 AM - 8:00 PM",
+      "saturday": "9:00 AM - 8:00 PM",
+      "sunday": "Closed"
+    }
+  },
+  "booking": {
+    "depositPercentage": 25,
+    "bufferTimeMinutes": 15,
+    "advanceBookingDays": 30,
+    "cancellationHours": 24
+  },
+  "offers": {
+    "newClientDiscount": 15,
+    "referralDiscount": 10
+  }
+}
