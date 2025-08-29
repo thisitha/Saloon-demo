@@ -5,6 +5,7 @@ import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import { Header } from "@/components/header"
+import { Footer } from "@/components/footer"
 import "./globals.css"
 
 const playfair = Playfair_Display({
@@ -46,6 +47,7 @@ export default function RootLayout({
       <body className={`font-sans ${playfair.variable} ${inter.variable} ${GeistMono.variable}`}>
         <Header />
         <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+        <Footer />
         <Analytics />
       </body>
     </html>
